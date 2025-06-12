@@ -51,6 +51,17 @@ void insert() {
                 FRONT = FRONT + 1;
         }
     }
+    void Display() {
+        int FRONT_posisition = FRONT;
+        int REAR_posisition = REAR;
 
+        if (FRONT == -1 ) {
+            cout  << "Queues is empety\n";
+            return;
+        }
+
+        cout << "\nElement in the queue are...\n";
+        
+    }
 }
 }
