@@ -38,6 +38,7 @@ void insert() {
             cout << "Queues underflow\n";
             return;
         }
+        cout << "nElement terhapus: "  << queue_array[FRONT] << "\n";
     }
 }
 }
