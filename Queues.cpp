@@ -39,6 +39,18 @@ void insert() {
             return;
         }
         cout << "nElement terhapus: "  << queue_array[FRONT] << "\n";
+
+        if (FRONT == REAR){
+            FRONT = -1;
+            REAR = -1;
+        }
+        else {
+            if (FRONT == MAX -1)
+                FRONT = 0;
+            else 
+                FRONT = FRONT + 1;
+        }
     }
+
 }
 }
