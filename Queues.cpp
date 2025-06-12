@@ -32,5 +32,12 @@ void insert() {
         else 
             REAR = REAR + 1;
     }
+    
+    void remove(){
+        if (FRONT == -1) {
+            cout << "Queues underflow\n";
+            return;
+        }
+    }
 }
 }
