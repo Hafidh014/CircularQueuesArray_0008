@@ -73,11 +73,12 @@ public:
         int FRONT_Position = FRONT;
         int REAR_Position = REAR;
 
-        if (FRONT == -1)
+        if (FRONT_Position == -1)
         {
-            cout << "Queue underflow\n";
+            cout << "Queue is empty\n";
             return;
         }
+        
         cout << "\nElements in the queue are....\n";
     }
 };
