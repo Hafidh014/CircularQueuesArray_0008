@@ -67,4 +67,13 @@ public:
                 FRONT = FRONT + 1;
         }
     }
+
+    void display()
+    {
+        if (FRONT == -1)
+        {
+            cout << "Queue underflow\n";
+            return;
+        }
+    }
 };
