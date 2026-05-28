@@ -70,11 +70,14 @@ public:
 
     void display()
     {
+        int FRONT_Position = FRONT;
+        int REAR_Position = REAR;
+
         if (FRONT == -1)
         {
             cout << "Queue underflow\n";
             return;
         }
-        cout << "\nThe element deleted from the queue is: " << queue_array[FRONT] << "\n";
+        cout << "\nElements in the queue are....\n";
     }
 };
