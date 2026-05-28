@@ -100,7 +100,7 @@ public:
             }
 
             FRONT_Position = 0;
-            
+
             while (FRONT_Position <= REAR_Position)
             {
                 cout << queue_array[FRONT_Position] << " ";
@@ -110,3 +110,10 @@ public:
         }
     }
 };
+
+int main()
+{
+    Queues q;
+    char ch;
+
+}
